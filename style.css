@@ -9,8 +9,8 @@
 :root{
     --bg-color: #f4f6fa;
     --purple: #a729f5;
-    --primaty-text-color: #313e51;
-    --secondary-tex-color: #626c7f;
+    --primary-text-color: #313e51;
+    --secondary-text-color: #626c7f;
     --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
@@ -20,6 +20,17 @@
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
+
+}
+
+body.escuro {
+    --bg-color: #313e51;
+    --bg-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-dark.svg);
+    --primary-text-color: #fff;
+    --secondaru-text-color: #abc1e1;r
+    --button-bg: #3b4d66;
+    --shadow: 0px 16px 40ppx 0px rgba(49, 62, 81, 0.14);
 
 }
 
@@ -76,7 +87,7 @@ main{
 .boas_vindas h1{
     font-size: 40px;
     font-weight: 300;
-    color: var(--primaty-text-color);
+    color: var(--primary-text-color);
     margin-bottom: 16px;
 }
 
@@ -86,7 +97,7 @@ main{
 }
 
 .boas_vindas p{
-    color: var(--secondary-tex-color);
+    color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 150%;
     font-style: italic;
@@ -109,7 +120,7 @@ main{
     box-shadow: var(--shadow);
     font-size: 10px;
     font-weight: 500;
-    color: var(--primaty-text-color);
+    color: var(--primary-text-color);
 }
 
 .assuntos button div{
