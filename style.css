@@ -106,6 +106,20 @@ main{
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--primaty-text-color);
+}
+
+.assuntos button div{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img{
+    width: 100%;
 }
 
 .botao_html div {
