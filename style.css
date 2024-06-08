@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root{
     --bg-color: #f4f6fa;
     --purple: #a729f5;
+    --primaty-text-color: #313e51;
+    --white: #fff;
     --bg-mobile: url.(./assets/images/pattern-background-mobile-light.svg)
 
 }
@@ -47,7 +51,7 @@ header{
 }
 
 .tema button div{
-    background: var(--bg-color);
+    background: var(--white);
     width: 12px;
     height: 12px;
     border-radius: 999px;
@@ -56,4 +60,10 @@ header{
 main{
     padding: 32px 42px;
 
+}
+
+main h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: #313e51;
 }
