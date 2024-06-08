@@ -14,7 +14,7 @@
     --purple-hover:rgba(167, 41, 245, 0.7);
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
-    --pontucao-bg: #fff;
+    --pontuacao-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
@@ -159,7 +159,7 @@ main button:hover{
 }
 
 
-@media(min-widht: 1100px){
+@media(min-width: 1100px){
     body{
         background: var(--bg-desktop) var(--bg-color);
         background-size: cover;
@@ -200,4 +200,19 @@ main button:hover{
         height: 20px;
     }
 
+    main {
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    main, h2,
+    main > div {
+        width: 100%;
+    }
+
+    main h2{
+        font-size: 64px;
+    }
 }
