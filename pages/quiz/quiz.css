@@ -132,7 +132,7 @@ main{
 .pergunta p{
     font-style: italic;
     font-size: 14px;
-    color: var(--secondaru-text-color);
+    color: var(--secondary-text-color);
     margin-bottom: 12px;
 }
 
@@ -153,7 +153,6 @@ main{
 
 .barra_progresso div{
     height: 100%;
-    width: 60%;
     background: var(--purple);
     border-radius: 999px;
 }
