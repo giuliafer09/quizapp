@@ -15,9 +15,9 @@
     --primary-text-color: #313e51;
     --secundary-text-color: #626c7f;
     --button-bg: #fff;
-    --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
+    --shadow: 0px 16px 40px 0px rgba(143, 168, 193, 0.14);
     --bg-html: #fff1e9;
-    --bg-css: #e0fdef;
+    --bg-css: #e8fdef;
     --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --white-: #fff;  
@@ -34,7 +34,7 @@ body.escuro {
     --bg-desktop: url(../../assets/images/pattern-background-desktop-dark.svg);
     --primary-text-color: #fff;
     --secundary-text-color: #abc1e1;
-    --button-bg: #3b4d66;
+    --button-bg: #3b4b66;
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
 }
 
@@ -152,6 +152,7 @@ main {
 
 .barra_progresso div {
     height: 100%;
+    width: 60%;
     background: var(--purple-);
     border-radius: 999px;
 }

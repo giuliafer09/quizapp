@@ -320,7 +320,7 @@
         },
         {
             "title": "Acessibilidade",
-            "icon": "../../assets/images/icon-accessibility.svg",
+            "icon": "../../assets/images/icon-acesibilidade.svg",
             "questions": [
                 {
                     "question": "O que significa 'WCAG'?",

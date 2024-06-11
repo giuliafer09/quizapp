@@ -1,4 +1,4 @@
-import { verificarTema, trocarTema } from "../../helpers/tema.helper.js";
+import { verificarTema, trocarTema } from "../../helpers/tema-helper.js";
 
 
 const botaoTema = document.querySelector(".tema button")
@@ -13,7 +13,7 @@ let idInputResposta= ""
 let respostaCorretaId= ""
 
 botaoTema.addEventListener("click", () => {
-    trocarTema(body, trocarTema)
+    trocarTema(body, botaoTema)
 })
 
 verificarTema(body, botaoTema)
@@ -48,7 +48,7 @@ function montarPergunta() {
     const main = document.querySelector("main")
 
     main.innerHTML= `
-        <section class="perguntas">
+        <section class="pergunta">
                 <div>
                 <p>Questão ${pergunta} de 10</p>
 
@@ -83,7 +83,7 @@ function montarPergunta() {
                         <input type="radio" id="alternativas_c" name="alternativa" value="${alterarSinais(quiz.questions[pergunta-1].options[2])}">
 
                         <div>
-                            <span>c</span>
+                            <span>C</span>
                             ${alterarSinais(quiz.questions[pergunta-1].options[2])}
                         </div>
                     </label>
